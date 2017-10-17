@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="contentview_horizontal_margin">16dp</dimen>
+    <dimen name="item_vertical_padding">8dp</dimen>
+</resources>

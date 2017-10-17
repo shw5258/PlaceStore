@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Place Store</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pin_on_map">Pin On Map</string>
+    <string name="text_welcome_message">마커를 터치하시면 여기에 그 장소의 관련정보가 나타납니다</string>
+    <string name="text_dialog_bottom_sheet">Dialog Bottom Sheet</string>
+    <string name="text_expand_me">Expand Me</string>
+    <string name="dialog_message">당신의 위치정보를 이용하여 주변의 관심분야를 더 빠르게 찾고 길찾기 출발지가 자동으로 지정됩니다</string>
+    <string name="dialog_title">통합위치정보조회하기</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">원하는 장소를 입력하세요</string>
+    <string name="title_activity_crown">CrownActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_change">Change</string>
+    <string name="action_category">Category</string>
+    <string name="sorry_no_results">Sorry, no results...</string>
+</resources>

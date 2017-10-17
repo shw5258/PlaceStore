@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:algolia="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.google.placestore.SearchResultsActivity">
+
+    <com.algolia.instantsearch.ui.views.Hits
+        android:id="@+id/hitRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        algolia:autoHideKeyboard="true"
+        algolia:hitsPerPage="10"
+        algolia:itemLayout="@layout/hits_item"/>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/contentview_horizontal_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/sorry_no_results"/>
+
+</LinearLayout>
